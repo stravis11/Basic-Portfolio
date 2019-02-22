@@ -1,5 +1,43 @@
 body {
     background-image: url("../images/dark-honeycomb.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
      }
 
+h {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: teal;
+}
+
+.header {
+  height: 30px;
+  width: 60px;
+  padding: 30px;
+  text-align: left;
+  background: #1abc9c;
+  color: white;
+  font-size: 10px;
+}
+
+.content {
+  width: 960px;
+  border: 1px solid;
+  padding: 10px;
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+    display: inline;
+}
+
+li {
+  float: right;
+  border-right: 1px solid #bbb;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
   
