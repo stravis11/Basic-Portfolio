@@ -78,3 +78,15 @@ h {
   padding: 2px;
 }
 
+/* Style footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  border-top: 5px solid teal;
+}
+
