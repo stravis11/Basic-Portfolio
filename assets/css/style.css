@@ -20,7 +20,7 @@ h {
 
  /* Style name field in header */
  #header .name {
-  background: #1abc9c;
+  background: #4aaaa5;
   text-align: center;
   float: left;
   padding: 0 5px 0 5px;   
@@ -38,7 +38,7 @@ h {
 /* Style the links inside the navigation bar */
 #header .topnav a {
   float: right;
-  color: teal;
+  color: #4aaaa5;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -59,9 +59,9 @@ h {
   margin: 50px auto;
 }
 
-/* Style about me content section */
+/* Style content section */
 #content .about {
-  color: teal;
+  color: #4aaaa5;
   border-bottom: 2px solid gray;
   padding-bottom: 5px;
  }
@@ -75,7 +75,7 @@ h {
 /* Style conent image */
 #content .image {
   float: left;
-  padding: 2px;
+  padding: 2px 2px;
 }
 
 /* Style footer */
@@ -87,6 +87,38 @@ h {
   background-color: gray;
   color: white;
   text-align: center;
-  border-top: 5px solid teal;
+  border-top: 5px solid #4aaaa5;
+}
+
+/* Style image grid */
+#grid {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  grid-gap: 10px;
+}
+
+/* Style images */
+#grid .box {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#grid .text {
+  color: white;
+  background-color: #4aaaa5;
+  position: relative;
+  top: -80px;    
+  height: 25%;
+  text-align: center;    
+  width: 100%;
+  font-size: 150%;
+  max-width: 200px;
+ /* border-radius: 25px; */
+}
+
+/* Style contact form */
+form {
+  line-height: 175%;
+  margin: 20px;
 }
 
